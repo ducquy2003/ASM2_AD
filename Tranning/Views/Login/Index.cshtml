@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Tranning.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login Page";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+}
+<!-- _Layout.cshtml -->
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img src="https://btec.fpt.edu.vn/wp-content/uploads/2017/01/Logo_FPT-BTEC.jpg" alt="Your Logo" class="img-fluid mb-4" />
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            @using (Html.BeginForm("Index", "Login", FormMethod.Post, new { @class = "border p-4 rounded" }))
+            {
+                @if (ViewData["MessageLogin"] != null)
+                {
+                    <p class="alert alert-danger text-center">
+                        @ViewData["MessageLogin"]
+                    </p>
+                }
+                <div class="mb-3">
+                    @Html.LabelFor(m => m.Username, new { @class = "form-label" })
+                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control", @id = "username" })
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(m => m.Password, new { @class = "form-label" })
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @id = "password" })
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-orange btn-lg">Login</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
