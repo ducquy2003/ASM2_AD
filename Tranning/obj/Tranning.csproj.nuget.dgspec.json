@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TrainingProject\\Training\\Tranning\\Tranning.csproj": {}
+    "C:\\Users\\My computer\\OneDrive\\Máy tính\\Tranning\\Tranning\\Tranning.csproj": {}
   },
   "projects": {
-    "D:\\TrainingProject\\Training\\Tranning\\Tranning.csproj": {
+    "C:\\Users\\My computer\\OneDrive\\Máy tính\\Tranning\\Tranning\\Tranning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TrainingProject\\Training\\Tranning\\Tranning.csproj",
+        "projectUniqueName": "C:\\Users\\My computer\\OneDrive\\Máy tính\\Tranning\\Tranning\\Tranning.csproj",
         "projectName": "Tranning",
-        "projectPath": "D:\\TrainingProject\\Training\\Tranning\\Tranning.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\TrainingProject\\Training\\Tranning\\obj\\",
+        "projectPath": "C:\\Users\\My computer\\OneDrive\\Máy tính\\Tranning\\Tranning\\Tranning.csproj",
+        "packagesPath": "C:\\Users\\My computer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\My computer\\OneDrive\\Máy tính\\Tranning\\Tranning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\My computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -92,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

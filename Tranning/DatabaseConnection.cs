@@ -6,7 +6,7 @@ namespace Tranning
     {
         public static string GetStrConnection()
         {
-            string strConnection = @"Data Source=JasonNg;Initial Catalog=Tranning;Integrated Security=True;TrustServerCertificate=True;";
+            string strConnection = @"Data Source=LAPTOP-J7OAE2JJ;Initial Catalog=Tranning;Integrated Security=True;TrustServerCertificate=True;";
             return strConnection;
         }
 
